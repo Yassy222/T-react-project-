@@ -32,6 +32,10 @@ nav{
 img{
   
 }
+
+.nav__link--side{
+    left: 25%;
+}
     
 
 .nav{
@@ -50,6 +54,11 @@ img{
     width: 100px;
     max-width: 1200px;
     height: 10px;
+    font-size: 20px;
+    font-style: italic;
+    
+    
+    
     
 }
 
@@ -63,11 +72,14 @@ img{
   height: 100px;
   max-width: 1200px;
   padding: 0 24px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  left: 50%;
   margin: 0 auto;
+  
 
+}
+
+.image__treact{
+    left: 500%;
 }
 
 .nav__link--contain{
@@ -155,7 +167,7 @@ margin-bottom: 25px;
 }
 
 .purple{
-    color:#3f36e9ed;;
+    color:#3f36e9ed;
 }
 
 .btn{
@@ -197,6 +209,7 @@ margin-bottom: 25px;
     font-weight: 500;
     transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform;
     transition-duration: 300ms;
+    margin-top: 20px;
 
 }
 
@@ -208,11 +221,12 @@ margin-bottom: 25px;
     margin-bottom: 45px;
     position: absolute;
 left: 28%;
-top: 50%;
+top: 45%;
 }
 
 .customer__logo{
-    margin-top: 100px;
+    margin-top: 10px;
+
 }
 
 .customer__logo--img{
@@ -268,3 +282,253 @@ align-items: center;
     font-weight: 1px;
     font-size: 10px;
 }
+
+
+/*
+
+HIGHLIGHTS
+
+*/
+
+.highlight{
+    padding: 0 24px;
+    width: calc(100% / 3);
+    display: flex;
+    align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 75px;
+  width:calc(100%/3)
+}
+
+.highlight__img{
+    border:3px solid;
+    border-radius: 50%;
+    color: rgb(247, 242, 245);
+    width: 75px;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 24px;
+    opacity: 1px;
+    left: 25% !important;
+    
+}
+
+.highlight__subtitle{
+    font-size: 20px;
+    margin-bottom: 16px;
+    text-align: center;
+    color: rgb(68, 64, 64);
+}
+
+.highlight__para{
+    text-align: center;
+    max-width: 280px;
+    font-size:14px;
+    color: rgb(194, 202, 213);
+}
+
+.block{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#highlight{
+    position: relative;
+}
+
+/*
+
+QUALITY
+
+*/
+
+.quality__title{
+padding: 0 0 16px;
+margin-top: 150px;
+font-size: 16px;
+color: #3f36e9ed;
+margin-bottom: 15px;
+}
+
+.quality_subtitle{
+    max-width: 1200px;
+    font-size: 52px;
+    color: rgb(68, 64, 64);
+}
+
+
+.quality__img--treact{
+height: 325px;
+width: 520px;
+max-width: 1200px;
+position: relative;
+border:3px solid;
+border-color: rgb(242, 244, 246);
+padding: 0 24px;
+left: 59%;
+top: -335px;
+margin: 0 auto;
+border-radius: 30px;
+
+}
+
+.quality__para{
+    color: rgb(194, 202, 213);
+    font-size: 18px;
+    padding: 0;
+    margin-top: 15px;
+}
+
+.btn__quality{
+    margin-top: 30px;
+}
+
+/*
+
+STEPS
+
+*/
+
+.steps__get--started{
+    text-align: right;
+   display: flex;
+ flex-direction: column;
+    
+    
+}
+
+.comp__img{
+    width: 50%;
+    max-width: 1200px;
+    margin-bottom: 50px;
+    margin-top: -10%;
+
+}
+
+.steps__header{
+   text-align: right;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   float: right;
+   margin-top: -480px;  
+}
+ 
+.steps__1{
+    font-size: 16px;
+    color: #3f36e9ed;
+}
+
+.steps__2{
+    color: rgb(0, 0, 0);
+    padding-bottom: 5%;
+    padding-top: 5%;
+   
+}
+
+.steps__list{
+    font-size: 18px;
+color: #3f36e9ed;
+}
+
+.white{
+    color: rgb(0, 0, 0);
+
+}
+
+.step__run--para{
+    padding-top: -5%;
+}
+
+.steps__subtitle{
+   color: aqua;
+}
+
+
+
+/*
+
+VALUES
+
+*/
+
+.value__title{
+ padding: 0 0 16px;
+margin-top: 150px;
+font-size: 16px;
+color: #3f36e9ed;
+margin-bottom: 15px;
+}
+
+
+.value__para{
+    color: rgb(194, 202, 213);
+    font-size: 18px;
+    padding: 1%;
+    margin-top: 15px;
+    margin-bottom: 3%;
+    margin-left: 1%;
+   
+}
+
+.affordable__title{
+    margin-bottom: 1%;
+    color: #3f36e9ed;
+    margin-left: 2%;
+
+}
+
+.affordable__para{
+    color: black;
+    margin-left: 2%;
+}
+
+.Professionalism__title{
+    margin-bottom: 1%;
+    margin-top:2%;
+    color: #3f36e9ed;
+    margin-left: 2%;
+}
+
+.Professionalism__para{
+    color: black;
+    margin-left: 2%;
+}
+
+.value__subtitle{
+    max-width: 1200px;
+    font-size: 52px;
+    color: rgb(68, 64, 64);
+    margin-left: 2%;
+}
+
+.value__title{
+    margin-left: 2%;
+}
+
+
+ .value__btn--quality{
+margin-left: 1%;
+margin-top: 4%;
+    }
+
+.value__img--treact{
+    height: 325px;
+    width: 520px;
+    max-width: 1200px;
+    position: relative;
+    border:3px solid;
+    border-color: rgb(242, 244, 246);
+    padding: 0 24px;
+    left: 59%;
+    top: -335px;
+    margin: 0 auto;
+    border-radius: 30px;
+
+    
+    !!FINISH IMAGE LOCATION!!
+    }
